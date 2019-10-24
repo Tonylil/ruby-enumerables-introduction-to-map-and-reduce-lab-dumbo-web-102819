@@ -28,7 +28,7 @@ describe 'my own map-like methods' do
 end
 
 describe 'my own reduce-like methods' do
-  describe "reduce_to_total returns a running total when not given a starting point" do
+  describe "lt" do
     it "reduces correctly" do
       source_array = [1,2,3]
       expect(reduce_to_total(source_array)).to eq(6)
